@@ -1,0 +1,23 @@
+{
+  "name": "jf-test",
+  "version": "0.0.0",
+  "description": "johnny five test are arduino uno",
+  "main": "index.js",
+  "dependencies": {
+    "johnny-five": "^0.7.28"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morganherlocker/jf-test.git"
+  },
+  "author": "morganherlocker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morganherlocker/jf-test/issues"
+  },
+  "homepage": "https://github.com/morganherlocker/jf-test"
+}
