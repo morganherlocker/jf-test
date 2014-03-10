@@ -46,15 +46,16 @@ board.on("ready", function() {
     l: left
   });
 
-
-  function t(){
-    setTimeout(function(){
-      left()
-      t()
-    },3000)
+  var k = 0
+  for(var i = 0; i < 180; i++){
+    this.wait(6 * i, function(){
+      console.log(k)
+      s1.to(k)
+      s2.to(k)
+      k++
+    })
   }
 
-  t()
 });
 
 
